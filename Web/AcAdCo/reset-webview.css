@@ -1,0 +1,32 @@
+/*
+  The Repl Webview contains a dom highlighter (Luna Dom Highlighter), which will highlight elements in the Webview that are selected.
+
+  If custom styles are applied to the `div` class, it will also select the `div` element for the dom highlighter (which will override its set styles).
+
+  These CSS rules will re-apply the default style settings for each of these classes that belong to the dom highlighter.
+
+  Please link `reset-webview.css` right after the main stylesheet (`style.css`) in `index.html` when applying custom styles in the project.
+*/
+
+.luna-dom-highlighter-platform-mac {
+    color: #303942;
+    font-family: '.SFNSDisplay-Regular','Helvetica Neue','Lucida Grande',sans-serif;
+  }
+  
+  .luna-dom-highlighter {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100000;
+    pointer-events: none;
+    font-size: 13px;
+  }
+  
+  .__chobitsu-hide__, .luna-dom-highlighter, .luna-dom-highlighter-platform-mac {
+    display: block;
+    border: none;
+    margin: 0;
+    padding: 0;
+  }

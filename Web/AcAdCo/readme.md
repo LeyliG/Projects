@@ -24,6 +24,7 @@ Base student profile:
 
 
 Advanced future steps:
+    Fields: base version only has Computer Science. For advanced add other fields.
     Profile: add companies and their research teams/scientists
     Backend:  Node.js or Django
     Database: MongoDB or PostgreSQL

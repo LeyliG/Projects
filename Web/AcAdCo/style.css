@@ -1,0 +1,95 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    background-color: #D2D6D9;
+    color: white;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #C3C8CD;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 1em;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 1em;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label,
+  input,
+  textarea,
+  select,
+  button {
+    margin: 0.5em 0;
+  }
+  
+  input,
+  textarea,
+  select {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 0.7em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 1em 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  h1 {
+    color: #A8ADB4;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25;
+  }
+  
+  .important {
+    font-weight: bold;
+  }
+  
+  #unimportant {
+    text-decoration: line-through;
+  }

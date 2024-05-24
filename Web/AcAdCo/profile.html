@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Profile - AcAdCo</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Create Your Profile</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="matches.html">Find Matches</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form id="profileForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="researchInterests">Research Interests:</label>
+            <textarea id="researchInterests" name="researchInterests" required></textarea>
+
+            <label for="Education">Education:</label>
+            <textarea id="Education" name="Education" required></textarea>
+
+            <label for="experience">Professional Experiences:</label>
+            <textarea id="experience" name="experience" required></textarea>
+
+            <label for="Publications">Publications:</label>
+            <textarea id="Publications" name="Publications" required></textarea>
+
+            <label for="projects">Projects:</label>
+            <textarea id="projects" name="projects" required></textarea>
+
+            <label for="conferences">Past and Upcoming Conferences:</label>
+            <textarea id="conferences" name="conferences" required></textarea>
+
+            <label for="affiliations">Other Affiliations:</label>
+            <textarea id="affiliations" name="affiliations" required></textarea>
+
+            <label for="location">Location Interests:</label>
+            <input type="text" id="location" name="location" required>
+
+            <label for="seeking">Seeking:</label>
+            <select id="seeking" name="seeking" required>
+                <option value="advisor">Advisor</option>
+                <option value="collaborator">Collaborator</option>
+                <option value="both">Both</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 AcAdCo</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
