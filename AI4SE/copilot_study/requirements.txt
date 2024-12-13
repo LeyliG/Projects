@@ -1,0 +1,13 @@
+numpy
+requests
+pandas
+matplotlib
+seaborn
+networkx
+zstandard
+pydriller
+PyGithub
+tqdm
+networkx
+scikit-learn
+researchpy
