@@ -57,7 +57,7 @@ def process_repositories():
     end_date = datetime(2023, 7, 1)
 
     #clean_data = pd.read_csv('clean_data.csv')
-    output_file = 'gh_monthly_commit_data.csv'
+    output_file = './data_files/gh_monthly_commit_data.csv'
     
     fieldnames = [
         "repository", "month", "total_commits", "unique_authors",
