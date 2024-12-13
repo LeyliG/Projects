@@ -21,9 +21,9 @@ This folder contains code and files utilized as part of the Pre-Post LLMs for Co
 
 
 ### Step 4: Using the monthly data fit the Interrupted Time Series Mixed-Effects model. <br>
-  > **Python Files:**  <br>
-  > **Input:** Monthly aggregated data. <br>
-  > **Output:** Model results.
+  > **Python Files:** ```gh_monthly_time_series_model.py``` <br>
+  > **Input:** Monthly aggregated data ```gh_monthly_commit_data.csv``` and repository level data ```gh_popular_repo_data.csv```. <br>
+  > **Output:** Model results in a table format including coefficients, standard error, p-value. Additionally, the outputs include the marginal and conditional R-squared values along with QQ-plot and Residuals vs Fitted values plots. 
 
 
 
