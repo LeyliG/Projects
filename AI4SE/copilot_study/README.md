@@ -1,8 +1,9 @@
 This folder contains code and files utilized as part of the Pre-Post LLMs for Code Era. 
 
 Step 1: Use the SEART (GHS) data to identify candidate projects for manual analysis. <br>
-  Inputs:  <br>
-  Outputs:  <br>
+  Python File: ghs_data_process.py <br>
+  Inputs: GHS files stored in the data_files folder: [ghs_c_plus_plus.csv, ghs_c_sharp.csv, ghs_go.csv , ghs_java.csv, ghs_python.csv, ghs_ruby.csv, ghs_typescript.csv, ghs_javascript.csv] <br>
+  Outputs: './data_files/gh_popular_repo_data.csv' file containing names of the repositories for mining and manual analysis. <br>
 
 
 Step 2: Run scripts to mine the software repositories for mention of "Copilot" and perform manual analysis to confirm proper usage of copilot by the repositories. <br>
