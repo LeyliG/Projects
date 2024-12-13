@@ -1,4 +1,22 @@
-##
+"""
+Author: Aya Garryyeva
+
+This script processes GitHub repository data from multiple CSV files, filters the data based on specific criteria, 
+and extracts the top 50th percentile of repositories based on stargazers count. The final filtered data is saved 
+to a CSV file.
+
+Steps:
+1. Load GitHub repository data from CSV files into pandas DataFrames.
+2. Merge all the datasets into a single DataFrame.
+3. Filter the data based on various conditions such as homepage URL, repository status, creation and last commit dates, 
+    repository name, default branch, and number of contributors.
+4. Identify the top 50th percentile of repositories based on stargazers count for each programming language.
+5. Remove redundant features that have a single unique value across all rows.
+6. Save the final filtered data to a CSV file.
+
+Output:
+- A CSV file named 'gh_popular_repo_data.csv' containing the filtered repository data.
+"""
 
 import pandas as pd
 # Load ghs data files into pandas dataframes
@@ -70,7 +88,6 @@ print("Total number of repositories after extracting top 50-th percentile: " ,cl
 clean_data.to_csv('./data_files/gh_popular_repo_data.csv', index=False)
 
 
-# Output is the gh_popular_repo_data.csv file where "name" column is the repository name 
 
 
 
