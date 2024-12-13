@@ -13,9 +13,10 @@ This folder contains code and files utilized as part of the Pre-Post LLMs for Co
 
 
 ### Step 3: Use the list of projects with confirmed usage of Copilot to collect the aggregated monthly data on the metrics of interest. <br>
-  > **Python Files:**  <br>
-  > **Input:** List of Copilot user project. <br>
-  > **Output:** Monthly aggregated data. <br>
+  > **Python Files:** ```gh_monthly_commit_code.py``` <br>
+  > **Other required files** ```toke.txt```
+  > **Input:** List of Copilot user project. In the study we have two separate lists, one is the projects identified through Commits (```copilot_repos_commits.xlsx```) and the other one is from Pull Requests (```copilot_repos_prs.xlsx```) with both files stored in ```data_files``` folder. <br>
+  > **Output:** Monthly aggregated data stored in ```gh_monthly_commit_data.csv```. <br>
  
 
 
