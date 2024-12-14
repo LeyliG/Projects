@@ -1,5 +1,8 @@
 #### This folder contains code and files utilized as part of the Pre-Post LLMs for Code Era. 
 
+The report detailing our methodology and finidings can be found in ```AI4SE_Copilot_Report.pdf``` file. <br>
+
+-----
 
 ### Environment set up
 ```
@@ -30,8 +33,8 @@ pip install -r requirements.txt
 
 ### Step 3: Use the list of projects with confirmed usage of Copilot to collect the aggregated monthly data on the metrics of interest. <br>
   > **Python Files:** ```gh_monthly_commit_code.py``` <br>
-  > **Other required files** ```token.txt```
-  > **In the terminal run** ```nohup python gh_monthly_commit_code.py > gh_monthly_commit.log 2>&1 &```
+  > **Other required files** ```token.txt``` <br>
+  > **In the terminal run** ```nohup python gh_monthly_commit_code.py > gh_monthly_commit.log 2>&1 &``` <br>
   > **Input:** List of Copilot user project. In the study we have two separate lists, one is the projects identified through Commits (```copilot_repos_commits.xlsx```) and the other one is from Pull Requests (```copilot_repos_prs.xlsx```) with both files stored in ```data_files``` folder. <br>
   > **Output:** Monthly aggregated data stored in ```gh_monthly_commit_data.csv```. <br>
  
